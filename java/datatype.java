@@ -3,7 +3,7 @@ public class datatype {
     public static void main(String[] args) {
         System.out.println("Hello from datatype class!");
     }
-}*/
+}
 
 // PrimitiveTypes.java
 public class datatype {
@@ -27,3 +27,19 @@ public class datatype {
         System.out.println("Boolean: " + flag);
     }
 }
+    */
+
+// File: ReferenceTypes.java
+public class datatype {
+    public static void main(String[] args) {
+        String str = "Java Reference Type";
+        int[] numbers = {1, 2, 3, 4, 5};
+
+        System.out.println("String: " + str);
+        System.out.print("Array: ");
+        for (int num : numbers) {
+            System.out.print(num + " ");
+        }
+    }
+}
+
